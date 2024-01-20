@@ -1,3 +1,7 @@
+<a href="https://visitcount.itsvg.in">
+  <img src="https://visitcount.itsvg.in/api?id=titletailors&label=Repo%20Visits&color=4&icon=3&pretty=true" />
+</a>
+
 # 🌌 Title Tailors: Weaving Magic into Academic Paper Visibility 📜✨
 
 <div align="center">
