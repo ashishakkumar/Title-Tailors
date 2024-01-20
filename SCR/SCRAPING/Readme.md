@@ -22,7 +22,7 @@ Welcome to the Data Enchantment Lab of Title Tailors, a mystical space where dat
 - A Google Cloud Platform account for cloud storage.
 
 ## Consult the Streamlit Oracle 🔮
-Before diving into the Data Enchantment Lab, use the [Streamlit interface](https://titletailorsoracle.streamlit.app/) to craft your `.env` file and prepare the GCP credentials `.json` file. This step ensures that your magical tools are ready for the data journey ahead.
+Before diving into the Data Enchantment Lab, use the [Streamlit Oracle](https://titletailorsoracle.streamlit.app/) to craft your `.env` file and prepare the GCP credentials `.json` file. This step ensures that your magical tools are ready for the data journey ahead.
 
 ## Two Paths to Data Enchantment 🌟
 
