@@ -12,8 +12,10 @@ Welcome to the Data Enchantment Lab of Title Tailors, a mystical space where dat
 - **Data Conjuring** 📜: Extract data using Python scripts or Docker, each with its own kind of wizardry.
 - **Data Alchemy** 🧪: Transform raw data into insightful golden nuggets.
 - **Cloudward Ascension** ☁️: Send your refined data to the secure vaults of Google Cloud Storage.
-- **Evolving Magic** ✨: New methods and tools will be added as our quest progresses and needs evolve.
-
+- **Dual Dataframes Output by Docker** 🐳:
+  - **Cleaned Dataframe**: A simplified, purified version of the data.
+  - **Filtered Dataframe**: A more refined dataframe, filtered based on percentile over read count, tailored for model building.
+- **GCP Integration** ☁️: Conditional uploading of dataframes to Google Cloud Storage, based on the settings in your `.env` file.
 ## Spellbook (Getting Started) 📖
 
 ### Mystic Tools (Prerequisites) 🛠️
