@@ -1,58 +1,63 @@
----
 
-# 🌌 SRC/SCRAPING: The Enchanted Workshop of Title Tailors 🌟
+# 🌌 The Data Enchantment Lab of Title Tailors 🌟
 
 ## Overview 🌐
-In the mystical chamber of SRC/SCRAPING within the grand realm of Title Tailors, we weave together the art of Python scripting and the craft of Docker to transform data into a tapestry of insights. Guided by the arcane wisdom of `.env` and `.json` scrolls, our journey extends into the ethereal cloud realms of Google Cloud Storage.
+Welcome to the Data Enchantment Lab of Title Tailors, a mystical space where data is not just processed, but transformed through magical means. As we journey forward, the lab will adapt and evolve, introducing new methods and spells in accordance with our ever-changing requirements.
 
 ## Magical Features 🔮
-- **Data Conjuring** 📜: With scripts as our wands, we summon data from the digital ether with precision and intent.
-- **Data Alchemy** 🧪: Like alchemists, we transmute raw data into golden insights, rich with meaning.
-- **Cloudward Ascension** ☁️: Securely sending our alchemized data to the celestial vaults of Google Cloud Storage.
+- **Data Conjuring** 📜: Extract data using Python scripts or Docker, each with its own kind of wizardry.
+- **Data Alchemy** 🧪: Transform raw data into insightful golden nuggets.
+- **Cloudward Ascension** ☁️: Send your refined data to the secure vaults of Google Cloud Storage.
+- **Evolving Magic** ✨: New methods and tools will be added as our quest progresses and needs evolve.
 
 ## Spellbook (Getting Started) 📖
-### Mystic Tools (Prerequisites) 🛠️
-- Docker, the mystical vessel for our computational odyssey.
-- A Google Cloud Platform account, a portal to the cloud kingdoms.
-- The `.env` and `.json` scrolls for casting configuration spells (details below).
 
-### Enchantment Ritual (Installation) 🧙‍♂️
-1. Summon the essence of Title Tailors:
+### Mystic Tools (Prerequisites) 🛠️
+- Python for the hands-on data wizards.
+- Docker for those who prefer container-based sorcery.
+- A Google Cloud Platform account for cloud storage.
+
+## Consult the Streamlit Oracle 🔮
+Before diving into the Data Enchantment Lab, use the [Streamlit interface]() to craft your `.env` file and prepare the GCP credentials `.json` file. This step ensures that your magical tools are ready for the data journey ahead.
+
+## Two Paths to Data Enchantment 🌟
+
+### Option 1: Python Scripting 🐍
+1. Clone the Title Tailors repository:
    ```
    git clone https://github.com/karthik0899/Title-Tailors.git
    ```
-2. Glide into the SRC/SCRAPING sanctum:
+2. Enter the Data Enchantment Lab:
    ```
-   cd Title-Tailors/SRC/SCRAPING
+   cd Title-Tailors/Data-Enchantment-Lab
    ```
-3. Call forth the Docker image:
+3. Ensure the `.env` and GCP credentials `.json` files are in this directory.
+4. Run the Python scripts directly:
+   ```
+   python Extraction_file.py
+   ```
+
+### Option 2: Docker Conjury 🐳
+1. Ensure Docker is installed on your mystical machine.
+2. Clone the repository and navigate to the Data Enchantment Lab as in Option 1.
+3. Ensure the `.env` and GCP credentials `.json` files are in this directory.
+4. Pull the Docker image:
    ```
    docker pull title-tailors
    ```
-
-### Configuration 🛠️
-- Employ the Streamlit crystal to craft a `.env` scroll, imbuing it with essential environmental variables.
-- Secure a `.json` scroll with the necessary configurations, especially for Google Cloud Storage rituals.
-
-### Usage 🚀
-Invoke the Docker container with the power of your configuration scrolls:
-```
-docker run --env-file .env -v $(pwd)/your-config.json:/app/config.json title-tailors
-```
-This incantation activates the `Extraction_file.py` script, channeling the energies of the `.env` and `.json` scrolls.
+5. Invoke the Docker container with your configuration scrolls:
+   ```
+   docker run --env-file .env -v $(pwd)/your-config.json:/app/config.json title-tailors
+   ```
 
 ## Key Scripts 📜
-- **Extraction_file.py**: The chief script, orchestrating the symphony of data extraction and ascension.
-- **py_functions_data.py**: A tome of refined functions for data manipulation and celestial uploads.
-
-## Streamlit Oracle 🔮
-- Consult our Streamlit oracle to effortlessly generate your `.env` scroll and receive a bespoke Docker run command for your unique setup.
+- **Extraction_file.py**: The main script for data extraction, whether run directly or via Docker.
+- **py_functions_data.py**: Contains essential functions for data manipulation and cloud uploading.
 
 ## Potion Ingredients (Dependencies) 🧪
-The alchemical components are listed in the [Book of Requirements](https://github.com/karthik0899/Title-Tailors/blob/main/SRC/SCRAPING/requirements.txt).
+Find the list of magical ingredients in the [Book of Requirements](https://github.com/karthik0899/Title-Tailors/blob/main/Data-Enchantment-Lab/requirements.txt).
 
 ## Sacred License 📜
-This enchanted workshop and its secrets are bound by the MIT Enchantment. Peruse the [LICENSE](https://github.com/karthik0899/Title-Tailors/blob/main/LICENSE) scroll for the sacred text.
+This enchanted lab is shared under the MIT License. Consult the [LICENSE](https://github.com/karthik0899/Title-Tailors/blob/main/LICENSE) for the sacred text.
 
 ---
-
