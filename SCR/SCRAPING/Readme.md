@@ -55,7 +55,7 @@ Before diving into the Data Enchantment Lab, use the [Streamlit interface]() to 
 - **py_functions_data.py**: Contains essential functions for data manipulation and cloud uploading.
 
 ## Potion Ingredients (Dependencies) 🧪
-Find the list of magical ingredients in the [Book of Requirements](https://github.com/karthik0899/Title-Tailors/blob/main/Data-Enchantment-Lab/requirements.txt).
+Find the list of magical ingredients in the [Book of Requirements](https://github.com/karthik0899/Title-Tailors/blob/main/SCR/SCRAPING/requirements.txt).
 
 ## Sacred License 📜
 This enchanted lab is shared under the MIT License. Consult the [LICENSE](https://github.com/karthik0899/Title-Tailors/blob/main/LICENSE) for the sacred text.
