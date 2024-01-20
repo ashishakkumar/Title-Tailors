@@ -4,7 +4,10 @@
 
 # 🌌 Title Tailors: Weaving Magic into Academic Paper Visibility 📜✨
 
+<div align="center">
 <img src="https://github.com/karthik0899/Title-Tailors/blob/main/images/DALL%C2%B7E%202024-01-20%2021.34.14%20-%20A%20vibrant%20and%20magical%20themed%20logo%20for%20a%20project%20team%20focused%20on%20creating%20magical%20spells.%20The%20logo%20should%20be%20balanced%20in%20detail%20and%20simplicity%2C%20using%20a.png" alt="My Image" width="400" height="400">
+</div>
+
 
 
 ## Enchanting Overview
