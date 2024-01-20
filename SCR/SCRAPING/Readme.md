@@ -2,7 +2,7 @@
 # 🌌 The Data Enchantment Lab of Title Tailors 🌟
 
 <div align="center">
-  <img src="https://github.com/your-username/your-repository/raw/main/path/to/your-image.png](https://github.com/karthik0899/Title-Tailors/blob/main/images/DALL%C2%B7E%202024-01-20%2021.25.41%20-%20A%20magical%20scene%20set%20in%20a%20mystical%20workshop%2C%20where%20a%20team%20of%20five%20apprentices%20is%20collaboratively%20working%20on%20stitching%20together%20a%20magical%20artifact%20under.png" alt="My Image" width="400" height="400">
+  <img src="https://github.com/karthik0899/Title-Tailors/blob/main/images/DALL%C2%B7E%202024-01-20%2021.25.41%20-%20A%20magical%20scene%20set%20in%20a%20mystical%20workshop%2C%20where%20a%20team%20of%20five%20apprentices%20is%20collaboratively%20working%20on%20stitching%20together%20a%20magical%20artifact%20under.png" alt="My Image" width="400" height="400">
 </div>
 
 ## Overview 🌐
