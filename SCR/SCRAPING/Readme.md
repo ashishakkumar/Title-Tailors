@@ -33,7 +33,7 @@ Before diving into the Data Enchantment Lab, use the [Streamlit interface]() to 
    ```
 2. Enter the Data Enchantment Lab:
    ```
-   cd Title-Tailors/Data-Enchantment-Lab
+   cd Title-Tailors/SCR/SCRAPING
    ```
 3. Ensure the `.env` and GCP credentials `.json` files are in this directory.
 4. Run the Python scripts directly:
@@ -47,11 +47,18 @@ Before diving into the Data Enchantment Lab, use the [Streamlit interface]() to 
 3. Ensure the `.env` and GCP credentials `.json` files are in this directory.
 4. Pull the Docker image:
    ```
-   docker pull title-tailors
+   docker pull karthikrathod/data_scraping_docker:latest
    ```
 5. Invoke the Docker container with your configuration scrolls:
+   - If your are a wizard your self craft the incantation spell for the docker container, pls consult the  `Streamlit Oracle `
+   
    ```
-   docker run --env-file .env -v $(pwd)/your-config.json:/app/config.json title-tailors
+   docker run 
+   --platform linux/amd64 
+   --env-file /path/to/your/env-file 
+   -v /path/to/host/output:/data/output 
+   -v /path/to/host/gcp_unique.json:/data/gcp_unique.json karthikrathod/data_scraping_docker:latest
+      
    ```
 
 ## Key Scripts 📜
