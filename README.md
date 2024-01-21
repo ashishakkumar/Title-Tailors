@@ -1,5 +1,6 @@
-[![](https://visitcount.itsvg.in/api?id=titletailors&label=Views&color=0&pretty=false)](https://visitcount.itsvg.in)
-
+<a href="https://visitcount.itsvg.in">
+  <img src="https://visitcount.itsvg.in/api?id=titletailors&label=Views&color=0&pretty=false" />
+</a>
 # 🌌 Title Tailors: Weaving Magic into Academic Paper Visibility 📜✨
 
 <div align="center">
