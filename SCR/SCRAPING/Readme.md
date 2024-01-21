@@ -52,7 +52,7 @@ Before diving into the Data Enchantment Lab, use the [Streamlit Oracle](https://
    docker pull karthikrathod/data_scraping_docker:latest
    ```
 5. Invoke the Docker container with your configuration scrolls:
-   - If your are a wizard your self craft the incantation spell for the docker container, pls consult the  `Streamlit Oracle `
+   - If your are a wizard yourself craft the incantation spell for the docker container,else pls consult the  [`Streamlit Oracle`](https://titletailorsoracle.streamlit.app/)
    
    ```
    docker run 
