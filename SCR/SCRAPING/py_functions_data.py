@@ -123,7 +123,7 @@ def fetch_and_update_dataframe(api_token, query, max_rows, start, params=None, s
     os.makedirs('data', exist_ok=True)
     filtered_df.compute().to_csv("data/output/Cleaned.csv", index=False)
 
-    if percentile_filtering:
+    if percentile_filtering == 'True':
         metric_threshold = filtered_df[percentile_metric].quantile(percentile_value)
         # Filter the DataFrame to keep rows with the specified metric above the threshold
         filtered_df = filtered_df.loc[filtered_df[percentile_metric] >= metric_threshold]

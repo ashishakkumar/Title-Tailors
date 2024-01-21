@@ -22,7 +22,7 @@ fetch_and_update_dataframe(
 # The code block is checking the value of the environment variable `upload_to_gcp`. If the value is
 # not empty or False, it proceeds to upload a directory to Google Cloud Storage (GCP).
 upload_to_gcp = os.getenv('upload_to_gcp')
-if upload_to_gcp == True:
+if upload_to_gcp == 'True':
     # 2. Set JSON key as environment variable
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"]=os.getenv("key_path")
 
