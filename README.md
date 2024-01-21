@@ -1,6 +1,4 @@
-<a href="https://visitcount.itsvg.in">
-  <img src="https://visitcount.itsvg.in/api?id=titletailors&label=Repo%20Visits&color=4&icon=3&pretty=true" />
-</a>
+[![](https://visitcount.itsvg.in/api?id=titletailors&label=Views&color=0&pretty=false)](https://visitcount.itsvg.in)
 
 # 🌌 Title Tailors: Weaving Magic into Academic Paper Visibility 📜✨
 
