@@ -127,6 +127,8 @@ def fetch_and_update_dataframe(api_token, query, max_rows, start, params=None, s
         metric_threshold = filtered_df[percentile_metric].quantile(percentile_value)
         # Filter the DataFrame to keep rows with the specified metric above the threshold
         filtered_df = filtered_df.loc[filtered_df[percentile_metric] >= metric_threshold]
+    else:
+        print("percentile_filtering is not set to True, skipping percentile filtering")
 
     pattern = r"[^a-zA-Z0-9\s\.]"
     filtered_df['title'] = filtered_df['title'].str.replace(pattern, '', regex=True)

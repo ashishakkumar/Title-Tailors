@@ -1,4 +1,4 @@
-FROM python:3.11 
+FROM python:3.11-slim-buster 
  # Base image with Python 3.11 (adjust as needed)
 
 # WORKDIR /app  
